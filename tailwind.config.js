@@ -11,11 +11,10 @@ module.exports = {
         lineHeight: '14rem',
         fontWeight: '600',
       }],
-    extend: {
-      width: {
-        '630': '630px',
-      }
-    },
+      fontFamily: {
+        
+      },
+    extend: {},
   },
   plugins: [],
 }

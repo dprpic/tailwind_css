@@ -9,116 +9,131 @@
 
 </head>
 <body>
-    <div class="w-4/5 mx-auto">
-        <div class="flex justify-center mt-8 font-bold text-xl">
-            <h1>Joey®</h1>
-        </div>
+    <div class="w-11/12 mx-auto border-solid border-2 border-indigo-600">
+        <nav>
+            <div class="flex justify-between md:flex md:justify-center md:mt-8 font-bold text-xl mx-auto p-4">
+                <h1>Joey®</h1>
+              <button data-collapse-toggle="navbar-hamburger" type="button" class="md:hidden inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-white bg-black rounded-full">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+              </button>
+            </div>
+          </nav>
 
-        <div class="flex justify-center items-center w-96 mx-auto p-2 bg-black rounded-3xl mt-6">
+        <div class="hidden md:items-center bg-black rounded-full md:mt-6 md:flex md:justify-center md:w-96 mx-auto md:p-2">
             <div class="bg-white text-black rounded-3xl p-2.5"><a href="#" class="p-2 m-2 no-underline">Home</a></div>
-            <div><a href="#" class="p-2 m-2 no-underline text-gray-300"><small class="bg-gray-300 rounded-full p-0.5 text-black font-semibold">20</small> Projects</a></div>
-            <div><a href="#" class="p-2 m-2 no-underline text-gray-300">About</a></div>
-            <div><a href="#" class="p-2 m-2 no-underline text-gray-300">Contact</a></div>
+            <div><a href="#" class="p-2 m-1 md:m-2 no-underline text-gray-300"><small class="bg-gray-300 rounded-full p-0.5 text-black font-semibold">20</small> Projects</a></div>
+            <div><a href="#" class="p-2 m-1 md:m-2 no-underline text-gray-300">About</a></div>
+            <div><a href="#" class="p-2 m-1 md:m-2 no-underline text-gray-300">Contact</a></div>
          </div>
 
-         <div class="mt-12 relative">
-            <h1 class="text-10xl">Websites&<br>Branding</h1>
-            <button class="absolute top-3/4 right-64 p-8 text-base rounded-full bg-gray-100 flex items-center"><strong class="flex">SCROLL DOWN</strong><img class="ml-1" src="/images/down-arrow.png"></button>
+         <div class="flex justify-center mt-8 md:relative">
+            <h1 class="text-[48px] font-semibold md:text-10xl">Websites&<br>Branding</h1>
+         </div>
+         <div class="float-right md:relative">
+            <button class="md:absolute md:top-3/4 md:right-64 md:p-8 flex justify-center items-center p-4 mt-[25px] w-44 text-base rounded-full bg-gray-100"><strong class="flex">SCROLL DOWN</strong><img class="ml-1" src="/images/down-arrow.png"></button>
          </div>
 
-         <div class="flex justify-between mt-28 text-xl font-normal leading-8">
+         <div class="flex justify-between mt-28 text-[14px] font-medium md:text-xl md:font-normal leading-8">
             <div>
-                <p class="leading-9"><strong>Let's Talk</strong><br>hello@joey.co</p>
+                <p class="leading-9 mb-[25px] mr-11"><strong>Let's Talk</strong><br>hello@joey.co</p>
             </div>
             <div>
                 <p>Hello, I'm Joey, an online product desinger focusing<br> on brand identity, advertising, and no-code<br> instruments.</p>
             </div>
          </div>
 
-         <div class="flex justify-between mt-32 relative">
-            <div class="text-xl font-normal">
-                <p><strong>Projects</strong><br>As a seasoned creator of contemporary,<br>user-friendly web desings and digital<br>solutions, I aim to assist you in constructing<br>the brand od your fantasies.</p>
+         <div class="flex justify-between mt-20 md:mt-32 relative">
+            <div class="md:text-xl md:font-normal">
+                <p class="text-[14px] font-medium md:text-xl md:font-normal"><strong class="text-[24px] font-semibold">Projects</strong><br>As a seasoned creator of contemporary,<br>user-friendly web desings and digital<br>solutions, I aim to assist you in constructing<br>the brand od your fantasies.</p>
             </div>
-            <div class="absolute bottom-1 right-1.5">
-                <p class="flex items-center"><strong class="text-xl">More</strong><img class="ml-1 " src="/images/right-arrow.png"></p>
+            <div class="absolute right-1 bottom-24 md:bottom-1 md:right-1.5">
+                <p class="flex items-center"><strong class="text-[14px] md:text-xl">More</strong><img class="ml-1 " src="/images/right-arrow.png"></p>
             </div>
         </div>
 
-        <div class="flex justify-between mt-12 mb-2.5">
-            <div class="flex justify-center w-[630px] bg-purple-600 rounded-3xl">
-                <img class="w-[470px] h-[500px]" src="/images/prva.png">
+        <div class="flex flex-col justify-center md:flex md:flex-row md:justify-between mt-12 mb-2.5">
+            <div class="flex justify-center mb-[20px] md:w-[630px] bg-purple-600 rounded-3xl">
+                <img class="w-[278px] h-[274px] md:w-[470px] md:h-[500px]" src="/images/prva.png">
+            </div>
+            <div class="mb-16">
+                <h2 class="text-xl font-semibold">Crtly</h2>
+                <p class="text-xl font-medium">Mobile App</p>
             </div>
             <div>
-                <img class="w-[630px] h-[500px]" src="/images/druga.png">
+                <img class="mb-2.5 md:w-[630px] md:h-[500px]" src="/images/druga.png">
             </div>
-        </div>
-        <div class="text-xl relative">
-            <h2 class="font-medium">Crtly</h2>
-            <p>Mobile App</p>
-            <h2 class="font-medium absolute right-[560px] bottom-[28px]">Tansto</h2>
-            <p class="absolute right-[505px] bottom-[-5px]">Web Design</p>
+            <div class="mb-16">
+                <h2 class="text-xl font-semibold md:font-medium md:absolute md:right-[560px] md:bottom-[28px]">Tansto</h2>
+                <p class="text-xl font-medium md:absolute md:right-[505px] md:bottom-[-5px]">Web Design</p>
+            </div>
         </div>
         
-        <div class="flex justify-between mt-[45px]">
+        <div class="flex flex-col md:mt-[45px]">
             <div>
-                <img class="w-[630px] h-[500px]" src="/images/treca.png">
+                <img class="md:w-[630px] md:h-[500px]" src="/images/treca.png">
+            </div>
+            <div class="mb-16">
+                <h2 class="text-xl font-semibold md:font-medium">Senta</h2>
+                <p class="text-xl font-medium">Mobile App & Branding</p>
             </div>
             <div>
-                <img class="w-[630px] h-[500px]" src="/images/cetvrta.png">
+                <img class="md:w-[630px] md:h-[500px]" src="/images/cetvrta.png">
+            </div>
+            <div class="mb-16">
+                <h2 class="text-xl font-semibold md:font-medium">Crint</h2>
+                <p class="text-xl font-medium">Mobile App</p>
             </div>
          </div>
-         <div class="text-xl relative">
-            <h2 class="font-medium">Senta</h2>
-            <p>Mobile App & Branding</p>
-            <h2 class="font-medium absolute right-[580px] bottom-[23px]">Crint</h2>
-            <p class="absolute right-[510px] bottom-[-5px]">Mobile App</p>
-        </div>
 
         <div>
-            <h2 class="font-semibold text-[48px] mt-[150px]">Expertise</h2>
-            <div class="flex justify-between mt-[40px]">
+            <h2 class="text-[24px] font-semibold md:text-[48px] md:mt-[150px]">Expertise</h2>
+            <div class="flex flex-col md:justify-between md:mt-[40px]">
                 <div>
-                    <h3 class="font-semibold text-[32px] mt-[20px] list-item ml-[30px]">Branding</h3>
-                    <p class="font-medium text-[20px] ml-[30px]">Collaborating closely, we'll develop an impactful<br> brand identity for your emerging enterprise. The<br> full spectrum of brand analysis and design is<br> addressed, culminating in a visually stunning,<br> evergreen logo concept.</p>
+                    <h3 class="font-semibold text-[20px] ml-[22px] md:text-[32px] mt-[20px] list-item md:ml-[30px]">Branding</h3>
+                    <p class="font-medium text-[14px] ml-[22px] md:text-[20px] md:ml-[30px]">Collaborating closely, we'll develop an impactful<br> brand identity for your emerging enterprise. The<br> full spectrum of brand analysis and design is<br> addressed, culminating in a visually stunning,<br> evergreen logo concept.</p>
                 </div>
                 <div>
-                    <h3 class="font-semibold text-[32px] mt-[20px] list-item ml-[-5px]">UI Design</h3>
-                    <p class="font-medium text-[20px] mr-[40px]">I create efficient, adaptable, and engaging<br> websites. No predefined patterns. No sluggish,<br> complex code. Webflow forms the foundation of<br> my web development approach. I employ it to<br> provide safe, top-notch bespoke websites.</p>
+                    <h3 class="font-semibold text-[20px] ml-[22px] md:text-[32px] mt-[20px] list-item md:ml-[-5px]">UI Design</h3>
+                    <p class="font-medium text-[14px] ml-[22px] md:text-[20px] md:mr-[40px]">I create efficient, adaptable, and engaging<br> websites. No predefined patterns. No sluggish,<br> complex code. Webflow forms the foundation of<br> my web development approach. I employ it to<br> provide safe, top-notch bespoke websites.</p>
                 </div>
             </div>
-            <div class="flex justify-between mt-[60px]">
+            <div class="flex flex-col md:justify-between md:mt-[60px]">
                 <div>
-                    <h3 class="font-semibold text-[32px] mt-[20px] list-item ml-[30px]">UX Design</h3>
-                    <p class="font-medium text-[20px] ml-[30px]">I comprehend and resolve digital product issues<br> using a user-focused methodology. Investigation,<br> compassion, and visual conveyance are a few<br> techniques I apply to captivate and involve your<br> users while fulfilling your business requirements.</p>
+                    <h3 class="font-semibold  text-[20px] ml-[22px] md:text-[32px] mt-[20px] list-item md:ml-[30px]">UX Design</h3>
+                    <p class="font-medium text-[14px] ml-[22px] md:text-[20px] md:ml-[30px]">I comprehend and resolve digital product issues<br> using a user-focused methodology. Investigation,<br> compassion, and visual conveyance are a few<br> techniques I apply to captivate and involve your<br> users while fulfilling your business requirements.</p>
                 </div>
                 <div>
-                    <h3 class="font-semibold text-[32px] mt-[20px] list-item ml-[-5px]">Development</h3>
-                    <p class="font-medium text-[20px] mr-[40px]">I create user-friendly, adaptive, engaging<br> websites. No cookie-cutters. No cumbersome,<br> complex coding. Webflow forms the foundation<br> of my web development approach. I employ it to<br> produce safe, top-notch personalized websites.</p>
+                    <h3 class="font-semibold text-[20px] ml-[22px] md:text-[32px] mt-[20px] list-item md:ml-[-5px]">Development</h3>
+                    <p class="font-medium text-[14px] ml-[22px] md:text-[20px] md:mr-[40px]">I create user-friendly, adaptive, engaging<br> websites. No cookie-cutters. No cumbersome,<br> complex coding. Webflow forms the foundation<br> of my web development approach. I employ it to<br> produce safe, top-notch personalized websites.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="bg-black h-[249px] mt-[60px] flex justify-center items-center">
-        <p class="text-white font-semibold text-[175px]">design for digital experi</p>
+    <div class="bg-black h-[100px] w-[375px] md:h-[249px] mt-[60px] flex justify-center items-center">
+        <p class="text-white font-semibold text-[34px] md:text-[175px]">design for digital experi</p>
     </div>
 
-    <div class="w-4/5 mx-auto relative">
+    <div class="w-11/12 mx-auto relative border-solid border-2 border-indigo-600">
         <div class="mt-[40px]">
-            <h3 class="font-semibold text-[64px]">Testimonials</h3>
-            <p class="font-medium text-[48px]">“Joey is a remarkable artist. He grasps<br> abstract ideas and transforms them into<br> exceptional visuals. Throughout the years,<br> I've witnessed him produce everything from<br> small symbols to comprehensive adaptive<br> web pages. He has crafted clothing items<br> like tees and caps, promotional products,<br> and professional literature.”</p>
+            <h3 class="font-semibold text-[24px] md:text-[64px]">Testimonials</h3>
+            <p class="font-medium text-[14px] leading-6 mt-8 md:text-[48px]">“Joey is a remarkable artist. He grasps<br> abstract ideas and transforms them into<br> exceptional visuals. Throughout the years,<br> I've witnessed him produce everything from<br> small symbols to comprehensive adaptive<br> web pages. He has crafted clothing items<br> like tees and caps, promotional products,<br> and professional literature.”</p>
         </div>
-        <div class="absolute right-[150px] bottom-[690px]">
-            <h4 class="font-semibold text-[20px]">Chris Ellington</h4>
-            <p class="font-medium text-[20px]">Product Lead,Gatha.</p>
-        </div>
-
-        <div class="m-auto w-[41%] mt-[150px]">
-            <h2 class="font-semibold text-[140px] mb-[70px]">Let's Talk!</h2>
-            <button class="w-[262px] p-[32px] rounded-full text-[16px] bg-black text-white ml-[200px]">hello@joey.co</button>
+        <div class="leading-6 md:absolute md:right-[150px] md:bottom-[690px]">
+            <h2 class="mt-4 font-semibold text-[14px] md:text-[20px]">Chris Ellington</h2>
+            <p class="font-medium text-[14px] md:text-[20px]">Product Lead,Gatha.</p>
         </div>
 
-        <div class="flex justify-between font-medium text-[14px] mt-[150px]">
+        <div class="flex items-center justify-center flex-col mt-[25px] md:m-auto md:w-[41%] md:mt-[150px]">
+            <h2 class="font-semibold text-[48px] mb-[35px] md:text-[140px] md:mb-[70px]">Let's Talk!</h2>
+            <button class="p-[24px] text-[20px] w-[260px] md:w-[262px] md:p-[32px] rounded-full md:text-[16px] bg-black text-white md:ml-[200px]">hello@joey.co</button>
+        </div>
+
+
+        <div class="flex flex-col leading-10 mt-[50px] md:justify-between font-medium text-[14px] md:mt-[150px]">
             <p>2023 © - Made by Djectstudio</p>
             <div class="flex gap-9">
                 <p>Dribbble</p>
@@ -128,7 +143,6 @@
         </div>
 
     </div>
-
          
 </body>
 </html>
